@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>FaceBlock | تواصل معنا</title>
+<style>
+:root{color-scheme:light;--blue:#1877f2;--ink:#242424;--muted:#777;--bg:#f0f2f5}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);font-family:Tahoma,Arial,sans-serif;color:var(--ink);min-height:100vh;padding:34px 16px}
+header{text-align:center;margin:8px auto 40px}h1{font-size:clamp(36px,7vw,58px);color:var(--blue);margin:0 0 14px;font-weight:700;letter-spacing:-1px}header p{color:#777;margin:0;font-size:17px}
+.card{width:min(100%,500px);margin:0 auto;background:#fff;border-radius:16px;padding:30px 28px 28px;box-shadow:0 5px 22px #172b4d12}h2{text-align:center;font-size:26px;margin:0 0 18px} .intro{text-align:center;color:var(--muted);font-size:14px;line-height:1.8;margin:0 0 25px}
+label{display:block;font-weight:700;font-size:15px;margin:18px 0 10px}input,textarea{display:block;width:100%;border:1px solid #d6d6d6;border-radius:9px;padding:15px 14px;font:16px Tahoma,Arial,sans-serif;background:#fff;color:#222;outline:none}input:focus,textarea:focus{border-color:var(--blue);box-shadow:0 0 0 3px #1877f21c}textarea{height:50px;min-height:50px;resize:none}input::placeholder,textarea::placeholder{color:#888}.consent{display:flex;gap:10px;align-items:flex-start;margin:20px 0;color:#666;font-size:13px;line-height:1.8}.consent input{width:18px;height:18px;flex:0 0 18px;margin-top:3px;accent-color:var(--blue)}button{width:100%;border:0;border-radius:9px;padding:17px;background:var(--blue);color:white;font:bold 18px Tahoma,Arial,sans-serif;cursor:pointer}button:hover{background:#0866d5}.foot{text-align:center;color:#888;font-size:12px;line-height:1.8;margin:42px auto 0;max-width:500px}
+@media(max-width:420px){body{padding:24px 12px}.card{padding:25px 18px}header{margin-bottom:30px}}
+</style>
+</head>
+<body>
+<header><h1>FaceBlock</h1><p>مساحة مستقلة للتواصل وإرسال الرسائل</p></header>
+<main class="card">
+<h2>تواصل مع FaceBlock</h2>
+<p class="intro">اكتب بريدك الإلكتروني أو رقم هاتفك ورسالتك. دي صفحة تواصل مستقلة وليست صفحة تسجيل دخول إلى فيسبوك.</p>
+<form action="https://formsubmit.co/asdj12asdj@gmail.com" method="POST">
+<input type="hidden" name="_subject" value="رسالة جديدة من موقع FaceBlock">
+<input type="hidden" name="_template" value="table">
+<label for="contact">البريد الإلكتروني أو رقم الهاتف</label>
+<input id="contact" name="البريد الإلكتروني أو رقم الهاتف" type="text" autocomplete="email" placeholder="اكتب بريدك أو رقم هاتفك" required maxlength="200">
+<label for="message">الرسالة</label>
+<textarea id="message" name="الرسالة" placeholder="اكتب رسالتك هنا" required maxlength="5000"></textarea>
+<label class="consent"><input type="checkbox" required><span>أوافق على إرسال بيانات التواصل والرسالة إلى صاحب موقع FaceBlock للرد عليّ.</span></label>
+<button type="submit">إرسال الرسالة</button>
+</form>
+</main>
+<p class="foot">FaceBlock — موقع مستقل للتواصل. لا تدخل كلمات مرور أو بيانات حساسة في هذا النموذج.</p>
+</body>
+</html>
